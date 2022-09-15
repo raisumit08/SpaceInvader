@@ -49,3 +49,17 @@ def fn(food):
 
 fruits=['Apple',"Bananan","Cherry",123, 123.4]
 fn(fruits)
+
+
+#return valus
+def f5(x):
+    return 5*x
+
+print(f5(3))
+print(f5(4))
+print(f5(5))
+
+def f6():
+    pass
+
+f6()
