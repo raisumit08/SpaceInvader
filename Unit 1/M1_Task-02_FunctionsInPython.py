@@ -17,7 +17,7 @@ function(1.2)
 
 
 # Arbitary Arguments, *args
-def fn(*kids):
+def fn(*kids):  # '*' is used to make tuple[-4]
     print(kids[1])
 
 fn("Ravi", "Sumit", "Amit")
@@ -41,3 +41,11 @@ f3("India")
 f3()
 f3("Brazil")
 
+
+#Passing a list as an argument
+def fn(food):
+    for i in food:
+        print(i)
+
+fruits=['Apple',"Bananan","Cherry",123, 123.4]
+fn(fruits)
