@@ -1,7 +1,3 @@
-print("Hello world!")
-def abc():
-    n=input("Enter a no. to display: ")
-    print(n)
-    return n
+import M1_Task_06_CalculatorInPython
 
-abc()
+
